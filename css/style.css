@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body{
+	font-family: "Playfair Display", serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: "Comforta", sans-serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+.intro-text {
+  font-family: "Playfair Display", serif; /* This font is already in your body, so it's optional */
+  font-size: 18px; /* Or whatever size suits your design */
+  color: hotpink; /* A color that matches your design */
+  margin-bottom: 15px; /* Add some space below the paragraph */
+  line-height: 1.6; /* Makes it easier to read */
+}
+
